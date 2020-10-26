@@ -1,0 +1,408 @@
+html {
+  font-family: 'Merriweather', serif;
+  font-size: 62.5%; }
+
+body {
+  background-color: #fdffe4; }
+
+/*Fondos*/
+.fondo__fotos {
+  background-color: #fdffe4; }
+
+.fondo__productos {
+  background-color: #fdffe4; }
+
+.fondo_preguntas {
+  background-image: url(../images/fondos/fondo_mix.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.fondo_contacto {
+  background-image: url(../images/fondos/fondo_mix.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*Fondos*/
+/*menu*/
+header {
+  width: 100%; }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1d1d1d;
+    position: fixed;
+    top: 0em;
+    right: 0em;
+    left: 0em;
+    z-index: 2; }
+    header nav .logo_menu {
+      display: flex;
+      justify-content: flex-start; }
+      header nav .logo_menu a {
+        text-decoration: none;
+        padding: 5px;
+        padding-right: 40px;
+        font-size: 2rem;
+        color: white;
+        opacity: 0.7; }
+      header nav .logo_menu a:hover {
+        color: #ff7c00;
+        opacity: 1; }
+    header nav .menu {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: row;
+      align-items: center; }
+      header nav .menu a:hover {
+        background-color: #f3ee86; }
+
+header input, label {
+  display: none; }
+
+header label:hover {
+  cursor: pointer; }
+
+/*menu*/
+/*inicio banner*/
+.inicio__banner img {
+  display: flex;
+  flex-wrap: wrap; }
+
+/*inicio banner*/
+/*Prodctos seccion*/
+.productos__titulo {
+  text-align: left;
+  margin-top: 2rem;
+  margin-left: 9rem;
+  margin-bottom: 0rem; }
+
+.productos .fila {
+  margin-top: 3rem;
+  justify-content: space-around; }
+
+.productos .fila1 {
+  margin-top: 0.1px; }
+
+.imagenesProductos {
+  width: 300px;
+  height: 300px;
+  transition: all 2s; }
+
+/*fila1*/
+.productos__fila1 {
+  display: flex;
+  flex-wrap: wrap; }
+
+.imagen1 {
+  background-image: url(../images/fotosProductos/aceiteDeCoco.jpg); }
+
+.imagen1:hover {
+  background-image: url(../images/fotosProductosDescripcioness/aceiteDeCocoDescripcion.jpg);
+  transform: scale(1.1); }
+
+.imagen2 {
+  background-image: url(../images/fotosProductos/Clorofila.jpg); }
+
+.imagen2:hover {
+  background-image: url(../images/fotosProductosDescripcioness/ClorofilaDescripcion.jpg);
+  transform: scale(1.1); }
+
+.imagen3 {
+  background-image: url(../images/fotosProductos/tasteChocolate.jpg); }
+
+.imagen3:hover {
+  background-image: url(../images/fotosProductosDescripcioness/tasteChocolateDescripcion.jpg);
+  transform: scale(1.1); }
+
+.imagen4 {
+  background-image: url(../images/fotosProductos/proteMpDosLbsCookiesAndCream.jpg); }
+
+.imagen4:hover {
+  background-image: url(../images/fotosProductosDescripcioness/proteMp2lbsCookiesAndCreamDescripcion.jpg);
+  transform: scale(1.1); }
+
+/*fila1*/
+/*fila2*/
+.productos__fila2 {
+  display: flex;
+  flex-wrap: wrap; }
+
+.imagen5 {
+  background-image: url(../images/fotosProductos/mielbeepure.jpg); }
+
+.imagen5:hover {
+  background-image: url(../images/fotosProductosDescripcioness/mielbeepureDescripcion.jpg);
+  transform: scale(1.1); }
+
+.imagen6 {
+  background-image: url(../images/fotosProductos/lecheDeAlmendrasTratenfu.jpg); }
+
+.imagen6:hover {
+  background-image: url(../images/fotosProductosDescripcioness/lecheDeAlmendrasTratenfuDescripcion.jpg);
+  transform: scale(1.1); }
+
+.imagen7 {
+  background-image: url(../images/fotosProductos/proteinaVeganaProteinProject.jpg); }
+
+.imagen7:hover {
+  background-image: url(../images/fotosProductosDescripcioness/proteinaVeganaProteinProjectDescripcion.jpg);
+  transform: scale(1.1); }
+
+.imagen8 {
+  background-image: url(../images/fotosProductos/teSaintGottard.jpg); }
+
+.imagen8:hover {
+  background-image: url(../images/fotosProductosDescripcioness/teSaintGottardDescripcion.jpg);
+  transform: scale(1.1); }
+
+/*fila2*/
+/*fila3*/
+.productos__fila3 {
+  display: flex;
+  flex-wrap: wrap; }
+
+.imagen9 {
+  background-image: url(../images/fotosProductos/barras-mervick.jpg); }
+
+.imagen9:hover {
+  background-image: url(../images/fotosProductosDescripcioness/barras-mervickDescripcion.jpg);
+  transform: scale(1.1); }
+
+.imagen10 {
+  background-image: url(../images/fotosProductos/alfajoresLight.jpg); }
+
+.imagen10:hover {
+  background-image: url(../images/fotosProductosDescripcioness/alfajoresLightDescripcion.jpg);
+  transform: scale(1.1); }
+
+.imagen11 {
+  background-image: url(../images/fotosProductos/cremaDeManiHardy.jpg); }
+
+.imagen11:hover {
+  background-image: url(../images/fotosProductosDescripcioness/cremaDeManiHardyDescripcion.jpg);
+  transform: scale(1.1); }
+
+.imagen12 {
+  background-image: url(../images/fotosProductos/dulceDeLecheBeepure.jpg); }
+
+.imagen12:hover {
+  background-image: url(../images/fotosProductosDescripcioness/dulceDeLecheBeepureDescripcion.jpg);
+  transform: scale(1.1); }
+
+/*fila3*/
+/*Preguntas*/
+.preguntas {
+  text-align: center;
+  margin-top: 38rem;
+  font-size: 2rem;
+  margin-bottom: 40rem; }
+
+.preguntas__h2 {
+  font-size: 2.6rem;
+  color: white; }
+
+.pregunta {
+  color: #ff7c00;
+  opacity: 1;
+  display: inline;
+  font-weight: bold; }
+
+.preguntas__contacto {
+  color: white; }
+
+.consultasA {
+  color: #ff7c00;
+  opacity: 0.8; }
+
+.consultasA:hover {
+  color: #ff7c00;
+  opacity: 1; }
+
+/*Preguntas*/
+/*contacto formulario*/
+.formulario {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  font-size: 2rem; }
+
+input[type=text], input[type=email], input[type=textarea] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1; }
+
+.cancelbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9; }
+
+.enviarbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9; }
+
+.cancelbtn:hover {
+  opacity: 1; }
+
+.enviarbtn:hover {
+  opacity: 1; }
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336; }
+
+.cancelbtn, .enviarbtn {
+  float: left;
+  width: 50%; }
+
+.container {
+  padding: 16px; }
+
+.formulario form {
+  margin-top: 35rem; }
+
+.formulario p, b, label {
+  color: white; }
+
+.formulario h2, b {
+  color: #ff7c00; }
+
+/*contacto formulario*/
+/*productos destacados inicio*/
+#productosDestacados {
+  margin-top: 3rem;
+  text-align: center; }
+  #productosDestacados img {
+    width: 300px;
+    margin: 3rem;
+    margin-top: 1rem;
+    border: solid 1px black; }
+  #productosDestacados img:hover {
+    transform: scale(1.1); }
+  #productosDestacados h2 {
+    color: #ff7c00;
+    font-size: 2rem; }
+
+/*productos destacados inicio*/
+/* BANNER DE VENTAJAS*/
+#ventajas {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 7rem;
+  background-color: white;
+  border-top: solid     1px  #ff7c00;
+  border-bottom: solid     1px  #ff7c00; }
+  #ventajas button {
+    font-size: 3.6rem;
+    background-color: white;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    color: black;
+    border: none; }
+    #ventajas button p {
+      display: inline;
+      color: black;
+      opacity: 0.95; }
+
+/*BANNER DE VENTAJAS*/
+/*     Fotos       */
+.thumb {
+  margin-bottom: 30px; }
+
+.page-top {
+  margin-top: 85px; }
+
+img.zoom {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  object-fit: cover;
+  transition: all 1s; }
+
+.zoom:hover {
+  transform: scale(1.2); }
+
+/*     Fotos       */
+/* Inicio mapa */
+.inicio_mapa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem; }
+  .inicio_mapa h2 {
+    font-size: 2rem;
+    color: #ff7c00; }
+
+/* Inicio mapa */
+/*Pie de pagina*/
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top: solid 1px #1d1d1d;
+  margin-top: 30vh;
+  background-color: #1d1d1d; }
+  footer button {
+    font-size: 3rem;
+    color: #ff7c00;
+    border: none;
+    background-color: #1d1d1d; }
+    footer button p {
+      display: inline;
+      color: white; }
+
+/*Pie de pagina*/
+/*Responsive*/
+@media screen and (max-width: 800px) {
+  #ventajas {
+    flex-wrap: wrap; }
+    #ventajas button {
+      font-size: 2rem; }
+  .carousel-control-next {
+    height: 300px; }
+  .carousel-control-prev {
+    height: 300px; }
+  header label {
+    display: block;
+    position: fixed;
+    top: 0em;
+    right: 0em;
+    left: 0em;
+    z-index: 2; }
+  .logo_menu {
+    position: absolute;
+    top: 50px;
+    background-color: #1d1d1d;
+    flex-direction: column;
+    width: 50%;
+    margin-left: -70%;
+    transition: all 1s; }
+  .menu a {
+    display: none; }
+  .logo_menu a {
+    border-top: solid 1px white; }
+  #btn-menu:checked ~ * .logo_menu {
+    margin: 0; }
+  #carousel-example-1z {
+    display: none; } }
+
+/*Responsive*/
