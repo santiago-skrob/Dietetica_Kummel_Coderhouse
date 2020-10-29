@@ -13,23 +13,19 @@
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 		<link rel="stylesheet" type="text/css" href="css/pruebacss.css"> 
-
-
-		
-		
 	</head>
 
 	<body>
 		<header>
+			<!-- menu responsive -->
 			<input type="checkbox" id="btn-menu">
 			<label for="btn-menu"><img src="images/menu/btnMenu.png" width="50px" alt=""></label>
-
+			<!-- menu responsive -->
 			<!-- menu -->
 			<nav>
 				<div class="menu">
 					<a href="index.html"><img src="images/menu/Logo_Naranja.png" width="94px" height="54px" alt=""></a>
 				</div>
-
 				<div class="logo_menu">
 					<a href="index.html">Inicio</a>
 					<a href="Preguntas.html">Preguntas</a>
@@ -37,14 +33,14 @@
 					<a href="Productos.html">Productos</a>             
 					<a href="Contacto.html">Contacto</a>
 				</div>
-
 			</nav>
 			<!-- menu -->
 		</header>
 
 		
 		<!-- banner inicio -->
-		<img src="images/inicio_imagenes/banner.jpg" class="img-fluid" alt="banner" alt="banner">
+		<img src="images/inicio_imagenes/banner.jpg" class="img-fluid banner banner_inicio" alt="banner">
+		<img src="images/inicio_imagenes/banner-responsive.png" class="img-fluid banner banner_inicio_responsive" alt="banner">
 		<!-- banner inicio -->
 
 		
@@ -63,24 +59,18 @@
 		<!-- banner de ventajas -->
 
 
-
-		
-
-
-
-
 		<!-- productos destacados inicio -->
-		<section id="productosDestacados"><br><br><br>
+		<section id="productosDestacados">
 			<h2>Productos Destacados</h2>
-			<img src="images/fotosProductos/aceiteDeCoco.jpg" alt="Aceite de coco virgen" >
-			<img src="images/fotosProductos/Clorofila.jpg" alt="Clorofila">
-			<img src="images/fotosProductos/tasteChocolate.jpg" alt="Taste Chocolate">
-			<img src="images/fotosProductos/proteinaVeganaProteinProject.jpg" alt="Prote vegana">
-			<img src="images/fotosProductos/Iron bar chocolate.jpg" alt="Iron bar">
-			<img src="images/fotosProductos/mielbeepure.jpg" alt="Miel beepure">
-			<img src="images/fotosProductos/proteMpDosLbsCookiesAndCream.jpg" alt="Prote mp">
-			<img src="images/fotosProductos/teSaintGottard.jpg" alt="Te saint gottard">
-			<img src="images/fotosProductos/lecheDeAlmendrasTratenfu.jpg" alt="Leche de almendeas">
+			<img src="images/fotosProductos/producto1.jpg" alt="Aceite de coco virgen" >
+			<img src="images/fotosProductos/producto2.jpg" alt="Clorofila">
+			<img src="images/fotosProductos/producto3.jpg" alt="Taste Chocolate">
+			<img src="images/fotosProductos/producto4.jpg" alt="Prote vegana">
+			<img src="images/fotosProductos/producto5.jpg" alt="Iron bar">
+			<img src="images/fotosProductos/producto6.jpg" alt="Miel beepure">
+			<img src="images/fotosProductos/producto7.jpg" alt="Prote mp">
+			<img src="images/fotosProductos/producto8.jpg" alt="Te saint gottard">
+			<img src="images/fotosProductos/producto9.jpg" alt="Leche de almendeas">
 		</section>
 		<!-- productos destacados inicio -->
 
@@ -88,13 +78,11 @@
 		<!-- Mapa -->
 		<div class="inicio_mapa">
 			<h2>¿Dónde estamos ubicados?</h2>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.673761331406!2d-58.40525538417114!3d-34.763810073494604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2ed29af5a69%3A0x8ba0d57730b68029!2sAv.%20Hipolito%20Yrigoyen%209290%2C%20B1828CGR%20Lomas%20de%20Zamora%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1603661630856!5m2!1ses!2sar" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<iframe class="mapa_mediano" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.673761331406!2d-58.40525538417114!3d-34.763810073494604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2ed29af5a69%3A0x8ba0d57730b68029!2sAv.%20Hipolito%20Yrigoyen%209290%2C%20B1828CGR%20Lomas%20de%20Zamora%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1603661630856!5m2!1ses!2sar" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			<iframe class="mapa_chico" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3277.673605426439!2d-58.40306699999999!3d-34.763814!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2ed29af5a69%3A0x8ba0d57730b68029!2sAv.%20Hipolito%20Yrigoyen%209290%2C%20B1828CGR%20Lomas%20de%20Zamora%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1603810876151!5m2!1ses!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 		</div>
+
 		<!-- Mapa -->
-
-
-
-
 
 
 		<!-- pie de pagina -->
@@ -102,11 +90,14 @@
 			<div class="footer__mail">
 				<button><i class="fas fa-envelope"> <p>dieteticakummel@gmail.com</p></i></button>
 			</div>
-			<div class="footer__facebook">
-				<button><i class="fab fa-facebook"><p>Dietética Kummel</p></i></button>
+			<div class="footer__telefono">
+				<button><i class="fas fa-phone-alt"><p>011 22051755</p></i></button>
 			</div>
 			<div class="footer__instagram">
-				<button><i class="fab fa-instagram"><p>dieteticakummel</p></i></button>
+				<button><i class="fab fa-instagram"><p>Dieteticakummel</p></i></button>
+			</div>
+			<div class="footer__facebook">
+				<button><i class="fab fa-facebook"><p>Dietética Kummel</p></i></button>
 			</div>
 		</footer>
 		<!-- pie de pagina -->
