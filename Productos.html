@@ -14,19 +14,19 @@
 		<link rel="stylesheet" type="text/css" href="css/pruebacss.css"> 
 		<script src="https://kit.fontawesome.com/578c465b05.js" crossorigin="anonymous"></script>
 	</head>
-	<body>
-	<body>
-		
+
+	
+	<body>	
 		<header>
+			<!-- menu responsive -->
 			<input type="checkbox" id="btn-menu">
 			<label for="btn-menu"><img src="images/menu/btnMenu.png" width="50px" alt=""></label>
-
+			<!-- menu responsive -->
 			<!-- menu -->
 			<nav>
 				<div class="menu">
 					<a href="index.html"><img src="images/menu/Logo_Naranja.png" width="94px" height="54px" alt=""></a>
 				</div>
-
 				<div class="logo_menu">
 					<a href="index.html">Inicio</a>
 					<a href="Preguntas.html">Preguntas</a>
@@ -34,74 +34,59 @@
 					<a href="Productos.html">Productos</a>             
 					<a href="Contacto.html">Contacto</a>
 				</div>
-
 			</nav>
 			<!-- menu -->
-		</header><br><br><br>
+		</header>
 		
-		<!-- carousel -->
-<!--Carousel Wrapper-->
-	<div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel" >
-		<!--Indicators-->
-		<ol class="carousel-indicators">
-		  <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-		  <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-		  <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-		</ol>
-		<!--/.Indicators-->
-		<!--Slides-->
-		<div class="carousel-inner" role="listbox" width="1500px">
-		  <!--First slide-->
-		  <div class="carousel-item active">
-			<img class="d-block w-100" src="images/FotosCarousel/CarouselFoto1.jpg" width="1500px" height="800px" alt="First slide">
-		  </div>
-		  <!--/First slide-->
-		  <!--Second slide-->
-		  <div class="carousel-item">
-			<img class="d-block w-100" src="images/FotosCarousel/CarouselFoto2.jpg" width="1500px" height="800px" alt="Second slide">
-		  </div>
-		  <!--/Second slide-->
-		  <!--Third slide-->
-		  <div class="carousel-item">
-			<img class="d-block w-100"  src="images/FotosCarousel/CarouselFoto3.jpg" width="1500px" height="800px" alt="Third slide">
-		  </div>
-		  <!--/Third slide-->
-		</div>
-		<!--/.Slides-->
-		<!--Controls-->
-		<a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
-		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		  <span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
-		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-		  <span class="sr-only">Next</span>
-		</a>
-		<!--/.Controls-->
-	  </div>
-	  <!--/.Carousel Wrapper-->
-			<!-- carousel -->
-	  	<br><br>
-		<!-- productos destacados seccion -->
 
+		<!-- carousel -->
+		<div class="container carousel" >
+			<div class="row justify-content-center">
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<img src="images/FotosCarousel/CarouselFoto1.jpg" class="d-block" width="100%" alt="...">
+					  </div>
+					  <div class="carousel-item">
+						<img src="images/FotosCarousel/CarouselFoto2.jpg" class="d-block " width="100%" alt="...">
+					  </div>
+					  <div class="carousel-item">
+						<img src="images/FotosCarousel/CarouselFoto3.jpg" class="d-block" width="100%" alt="...">
+					  </div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- carousel -->
+		  
+			
+		<!-- productos destacados seccion -->
 		<section class="productos">
 			<div class="productos__fila1 fila fila1">
-				<div class="imagen1 imagenesProductos"></div>
-				<div class="imagen2 imagenesProductos"></div>
-				<div class="imagen3 imagenesProductos"></div>
-				<div class="imagen4 imagenesProductos"></div>
+				<div class="imagen1 imagenesProductos fila1_responsive"></div>
+				<div class="imagen2 imagenesProductos fila1_responsive"></div>
+				<div class="imagen3 imagenesProductos fila2_responsive"></div>
+				<div class="imagen4 imagenesProductos fila2_responsive"></div>
 			</div>
 				<div class="productos__fila2 fila">
-				<div class="imagen5 imagenesProductos"></div>
-				<div class="imagen6 imagenesProductos"></div>
-				<div class="imagen7 imagenesProductos"></div>
-				<div class="imagen8 imagenesProductos"></div>
+				<div class="imagen5 imagenesProductos fila3_responsive"></div>
+				<div class="imagen6 imagenesProductos fila3_responsive"></div>
+				<div class="imagen7 imagenesProductos fila4_responsive"></div>
+				<div class="imagen8 imagenesProductos fila4_responsive"></div>
 			</div>
 			<div class="productos__fila3 fila">
-				<div class="imagen9 imagenesProductos"></div>
-				<div class="imagen10 imagenesProductos"></div>
-				<div class="imagen11 imagenesProductos"></div>
-				<div class="imagen12 imagenesProductos"></div>
+				<div class="imagen9  imagenesProductos fila5_responsive"></div>
+				<div class="imagen10 imagenesProductos fila5_responsive"></div>
+				<div class="imagen11 imagenesProductos fila6_responsive"></div>
+				<div class="imagen12 imagenesProductos fila6_responsive"></div>
 			</div>
 		</section>
 		<!-- productos destacados seccion -->
@@ -112,11 +97,14 @@
 			<div class="footer__mail">
 				<button><i class="fas fa-envelope"> <p>dieteticakummel@gmail.com</p></i></button>
 			</div>
-			<div class="footer__facebook">
-				<button><i class="fab fa-facebook"><p>Dietética Kummel</p></i></button>
+			<div class="footer__telefono">
+				<button><i class="fas fa-phone-alt"><p>011 22051755</p></i></button>
 			</div>
 			<div class="footer__instagram">
-				<button><i class="fab fa-instagram"><p>dieteticakummel</p></i></button>
+				<button><i class="fab fa-instagram"><p>Dieteticakummel</p></i></button>
+			</div>
+			<div class="footer__facebook">
+				<button><i class="fab fa-facebook"><p>Dietética Kummel</p></i></button>
 			</div>
 		</footer>
 		<!-- pie de pagina -->
