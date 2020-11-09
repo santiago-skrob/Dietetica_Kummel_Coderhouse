@@ -1,0 +1,609 @@
+html {
+    font-family: 'Merriweather', serif;
+    font-size: 62.5%; 
+  }
+  
+  body {
+    background-color: #fdffe4;
+  }
+  
+
+
+
+/*Fondos*/
+.fondo_fotos{
+  background-color: #1d1d1df2;
+}
+  
+.fondo_preguntas{
+  background-image: url(../images/fondos/fondo_mix.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+.fondo_contacto{
+  background-image: url(../images/fondos/fondo_mix.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Fondos*/
+  
+  
+
+
+  /*menu*/
+header{
+  width: 100%;
+  nav{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+      background-color: #1d1d1d;
+       position: fixed; 
+       top: 0em; 
+       right: 0em; 
+       left: 0em; 
+       z-index: 2; 
+       .logo_menu{
+          display: flex;
+          justify-content: flex-start;
+          a{
+              text-decoration: none;
+              padding: 5px;
+              padding-right: 40px;
+              font-size: 2rem;
+              color: white;
+              opacity: 0.7;
+            }
+          a:hover{
+            color: #ff7c00;
+            opacity: 1;
+          }
+        }
+       .menu{
+          display: flex;
+          justify-content: flex-end;
+          flex-direction: row;
+          align-items: center;
+          a:hover{
+              background-color: #f3ee86;
+            }
+        }
+    }
+}
+  
+  header input, header label{
+    display: none;
+  }
+  
+  header label:hover{
+    cursor: pointer;
+  }
+  /*menu*/
+  
+
+
+
+
+  /*inicio banner del logo*/
+ .banner_inicio_responsive{
+   display: none;
+ }
+  /*inicio banner del logo*/
+  
+
+
+
+
+  /*productos destacados inicio*/
+#productosDestacados {
+  margin-top: 8rem;
+  text-align: center; 
+  img {
+      width: 300px;
+      margin: 3rem;
+      margin-top: 1rem;
+      border: solid 1px black; 
+    }
+  img:hover {
+    transform: scale(1.1); 
+  }
+  h1, h2{
+      color:  #ff7c00;
+      font-size: 2rem;
+    }
+}
+  /*productos destacados inicio*/
+
+
+
+
+  /* BANNER DE VENTAJAS*/
+#ventajas {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 7rem;
+  background-color: white;
+  border-top: solid     1px  #ff7c00;
+  border-bottom: solid     1px  #ff7c00;
+  button {
+      font-size: 3.6rem;
+      background-color: white; 
+      padding-right: 3rem;
+      padding-left: 3rem;
+      color: #ff5e00;
+      border: none;
+      p{
+          display: inline;
+          color: black;
+          opacity: 0.95;
+          color: black;
+          margin-left: 5px;
+        }
+  }
+}
+  /*BANNER DE VENTAJAS*/
+
+
+
+
+  
+  /*Prodctos seccion*/
+.productos{  
+  margin-top: 5rem;
+  .fila1{
+    margin-top: 0.1px;
+  }
+  .fila {
+  margin-top: 3rem;
+  justify-content: space-around; 
+}
+ }
+
+  
+.imagenesProductos {
+  width: 300px;
+  height: 300px;
+  transition: all 2s; 
+  border: solid 2px #ff5e00;
+}
+
+
+/*fila1*/
+.productos__fila1{
+  display: flex;
+  flex-wrap: wrap;
+}
+@for $i from 1 through 4{
+	.imagen#{$i} {background-image: url(../images/fotosProductos/producto#{$i}.jpg);}
+}
+@for $i from 1 through 4{
+	.imagen#{$i}:hover {background-image: url(../images/fotosProductosDescripcioness/descripcionDeProducto#{$i}.jpg);}
+}
+/*fila1*/
+
+/*fila2*/
+.productos__fila2{
+  display: flex;
+  flex-wrap: wrap;
+}
+@for $i from 5 through 8{
+	.imagen#{$i} {background-image: url(../images/fotosProductos/producto#{$i}.jpg);}
+}
+@for $i from 5 through 8{
+	.imagen#{$i}:hover {background-image: url(../images/fotosProductosDescripcioness/descripcionDeProducto#{$i}.jpg);}
+}
+/*fila2*/
+
+/*fila3*/
+.productos__fila3{
+  display: flex;
+  flex-wrap: wrap;
+}
+@for $i from 9 through 12{
+	.imagen#{$i} {background-image: url(../images/fotosProductos/producto#{$i}.jpg);}
+}
+@for $i from 9 through 12{
+	.imagen#{$i}:hover {background-image: url(../images/fotosProductosDescripcioness/descripcionDeProducto#{$i}.jpg);}
+}
+/*fila3*/
+/*Prodctos seccion*/
+
+
+/*carousel*/
+.carousel .row{
+  margin-top: 50px;
+  border: solid 3px #ff7c00;
+}
+/*carousel*/
+
+
+
+
+
+  
+/*Preguntas*/
+.preguntas {
+  text-align: center;
+  margin-top: 50rem;
+  font-size: 2rem; 
+  margin-bottom: 40rem;
+  a{
+    color: #ff7c00;
+    opacity: 0.9;
+  }
+  a:hover{
+    opacity: 1;
+  }
+}
+
+.preguntas__span{
+  font-size: 2.6rem;
+  color: white;
+}
+  
+.pregunta{
+  color: #ff7c00;
+  opacity: 1;
+  display: inline;
+  font-weight: bold;
+}
+  
+.preguntas__contacto{
+  color: white;
+  margin-top: 5rem;
+}
+  
+  /*Preguntas*/
+
+
+  
+
+  /*contacto formulario*/
+.formulario {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  font-size: 2rem; 
+  h2, b{
+    color: #ff7c00 ;
+  }
+  p, label{
+    color: white;
+  }
+  form{
+    margin-top: 35rem;
+  }
+}
+  
+input[type=text], input[type=email], input[type=textarea] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1; 
+}
+  
+.cancelbtn {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9; 
+  padding: 14px 20px;
+  background-color: #f44336; 
+  float: left;
+  width: 50%; 
+}
+  
+.enviarbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9; 
+  float: left;
+  width: 50%; 
+}
+  
+.cancelbtn:hover, .enviarbtn:hover {
+  opacity: 1; 
+}
+  
+.container {
+  padding: 16px; 
+}
+/*contacto formulario*/
+  
+  
+  
+
+
+  /*     Fotos       */
+.thumb{
+  margin-bottom: 30px;
+}
+  
+.page-top{
+  margin-top:85px;
+}
+  
+img.zoom {
+  width: 100%;
+  height: 200px;
+  border: solid 1px #ff7c00;
+  border-radius:5px;
+  object-fit:cover;
+  transition: all 1s;
+
+}
+          
+.zoom:hover{
+  transform: scale(1.20);
+}
+  /*     Fotos       */
+
+
+
+
+  
+  /* Inicio mapa */
+.inicio_mapa{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  .mapa_chico{
+    display: none;
+  }
+  h2{
+      font-size: 2rem;
+      color:#ff7c00;
+    }
+}
+  /* Inicio mapa */
+  
+  
+  
+  
+  
+  /*Pie de pagina*/
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-top: solid 1px #1d1d1d;
+  margin-top: 30vh; 
+  height: 100px;
+  background-color: #1d1d1d;
+  button {
+      font-size: 3rem;
+      color: #ff7c00;
+      border: none; 
+      background-color: #1d1d1d;
+      p{
+          display: inline;
+          color: white;
+        }
+    }
+}
+  /*Pie de pagina*/
+
+
+
+
+  /*Responsive*/
+@media screen and (max-width: 1200px) {
+
+/* productos seccion responsive */
+.productos .fila {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0rem;
+  justify-content: space-around; 
+}
+.imagen4, .imagen8, .imagen12{
+   display: none;
+}
+/* productos seccion responsive*/
+
+
+/*banner de ventajas responsive*/
+.banner button p{
+  font-size: 2.5rem;
+}
+/*banner de ventajas responsive*/
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+/*productos seccion responsive*/
+.imagen4, .imagen8, .imagen12{
+  display: block;
+}
+.productos .fila {
+  margin-top: 0rem;
+  justify-content: space-around; 
+}
+/*productos seccion responsive*/
+}
+
+
+
+
+/* responsive general*/
+@media screen and (max-width: 800px) {
+
+#ventajas {
+  flex-wrap: nowrap; 
+  margin-top: 1rem;
+  button {
+    font-size: 2rem; }
+}
+ 
+
+   
+header label{
+  display: block;
+  position: fixed; 
+  top: 0em; 
+  right: 0em; 
+  left: 0em; 
+  z-index: 2; 
+}
+  
+
+/* menu responsive*/
+.logo_menu{
+  position: absolute;
+  top: 50px;
+  background-color: #1d1d1d;
+  flex-direction: column;
+  width: 50%;
+  margin-left: -70%;
+  transition: all 1s;
+  a{
+    border-top: solid 1px white;
+  }
+}
+  
+.menu a{
+  display: none;
+}
+  
+#btn-menu:checked ~ * .logo_menu{
+  margin: 0;
+  }
+/*menu responsive*/
+    
+
+/*productos seccion responsive*/
+.container{
+  text-align: center; 
+ img{
+  width: 150%;
+} }
+.imagenesProductos{
+  margin-top: 1rem;
+}
+/*productos seccion responsive*/
+
+  
+/*footer responsive*/
+footer{
+  height: 150px;
+  display: block;
+}
+
+.footer__mail{
+  display: none;
+}
+/*footer responsive*/
+    
+
+/* mapa responsive */
+.inicio_mapa .mapa_mediano{
+  display: none;
+}
+
+.inicio_mapa .mapa_chico{
+  display: block;
+}
+/* mapa responsive */
+
+
+/* fondos responsive */
+.fondo_preguntas {
+  background-image: url(../images/fondos/fondo_mix_responsive.png);
+  .preguntas {
+    margin-top: 15rem;
+  }
+  }
+.fondo_contacto{
+ background-image: url(../images/fondos/fondo_mix_responsive2.png);
+}
+ /* fondos responsive */
+
+
+ /*formulario responsive*/
+.formulario {
+  margin-top: 1rem;
+}
+/*formulario responsive*/
+
+
+/* banner inicio responsive*/
+.banner_inicio_responsive{
+  display: block;
+}
+
+.banner_inicio{
+  display: none;
+}
+/* banner inicio responsive */
+
+
+/*seccion preguntas responsive*/
+.preguntas {
+  text-align: center;
+  margin-top: 100rem;
+  font-size: 2rem; 
+  margin-bottom: 40rem;
+}
+/*seccion preguntas responsive*/
+
+
+ /*productos destacados inicio responsive*/
+#productosDestacados img {
+  width: 250px;
+}
+/*productos destacados inicio responsive*/
+
+/* responsive general*/
+}
+
+
+
+@media screen and (max-width: 700px){
+/* banner de ventajas responsive */
+.ventajas__check{
+  display: none;
+}
+#ventajas{
+  height: 50px;
+  align-items: center;
+  margin-top: 5rem;
+  button {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    p{
+      font-size: 1.5rem;
+    }
+  }
+}
+/* banner de ventajas responsive */
+}
+
+
+
+  /*Responsive*/
+  

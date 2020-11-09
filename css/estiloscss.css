@@ -78,7 +78,7 @@ header label:hover {
     border: solid 1px black; }
   #productosDestacados img:hover {
     transform: scale(1.1); }
-  #productosDestacados h2 {
+  #productosDestacados h1, #productosDestacados h2 {
     color: #ff7c00;
     font-size: 2rem; }
 
@@ -232,7 +232,7 @@ header label:hover {
   .preguntas a:hover {
     opacity: 1; }
 
-.preguntas__h2 {
+.preguntas__span {
   font-size: 2.6rem;
   color: white; }
 
@@ -240,11 +240,7 @@ header label:hover {
   color: #ff7c00;
   opacity: 1;
   display: inline;
-  font-weight: bold;
-  margin-top: 0.1px; }
-
-.respuesta {
-  margin-top: 0.1px; }
+  font-weight: bold; }
 
 .preguntas__contacto {
   color: white;
@@ -297,10 +293,7 @@ input[type=text], input[type=email], input[type=textarea] {
   float: left;
   width: 50%; }
 
-.cancelbtn:hover {
-  opacity: 1; }
-
-.enviarbtn:hover {
+.cancelbtn:hover, .enviarbtn:hover {
   opacity: 1; }
 
 .container {
@@ -395,10 +388,6 @@ footer {
     margin-top: 1rem; }
     #ventajas button {
       font-size: 2rem; }
-  .carousel-control-next {
-    height: 300px; }
-  .carousel-control-prev {
-    height: 300px; }
   header label {
     display: block;
     position: fixed;
